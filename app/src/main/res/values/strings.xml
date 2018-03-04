@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Semana 2</string>
+    <string name="titFrmSignUp">Registro</string>
+    <string name="titFrmConfirmation">Confirmar Datos</string>
+    <string name="lblFullName">Nombre Completo</string>
+    <string name="lblBirthDate">Fecha de Nacimiento</string>
+    <string name="lblPhoneNumber">Número de Teléfono</string>
+    <string name="lblEmail">E-mail</string>
+    <string name="lblDescription">Descripción del Contacto</string>
+
+    <string name="lblNext">Siguiente</string>
+    <string name="lblEdit">Editar Datos</string>
+
+    <dimen name="width_summary_form">230dp</dimen>
+
+
+
+    <dimen name="horizontal_padding">50dp</dimen>
+    <dimen name="title_text_size">30sp</dimen>
+    <dimen name="vertical_padding">10dp</dimen>
+
+    <dimen name="extra_vertical_padding">30dp</dimen>
+
+
+</resources>

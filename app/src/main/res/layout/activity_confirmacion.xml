@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dominio.jc.androidsemana2.Confirmacion"
+    >
+    <TextView
+        android:id="@+id/txtTitSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/title_text_size"
+        android:text="@string/titFrmConfirmation"
+        android:textAlignment="center"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingRight="@dimen/horizontal_padding"
+        android:paddingTop = "@dimen/vertical_padding"
+        android:paddingBottom="@dimen/vertical_padding"/>
+
+    <TextView
+        android:id="@+id/txtFullLabel"
+        android:layout_width="@dimen/width_summary_form"
+        android:layout_height="wrap_content"
+        android:text="@string/lblFullName"
+        android:layout_below="@+id/txtTitSignUp"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingRight="@dimen/horizontal_padding"
+        android:paddingTop = "@dimen/vertical_padding"
+        android:paddingBottom="@dimen/vertical_padding"
+
+        />
+
+    <TextView
+        android:id="@+id/txtFullValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblFullName"
+        android:layout_toRightOf="@+id/txtFullLabel"
+        android:layout_below="@+id/txtTitSignUp"
+
+        android:paddingRight="@dimen/horizontal_padding"
+        android:paddingTop = "@dimen/vertical_padding"
+        android:paddingBottom="@dimen/vertical_padding"
+
+    />
+
+
+    <TextView
+        android:id="@+id/txtPhoneLabel"
+        android:layout_width="@dimen/width_summary_form"
+        android:layout_height="wrap_content"
+        android:text="@string/lblPhoneNumber"
+        android:layout_below="@+id/txtFullLabel"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingRight="@dimen/horizontal_padding"
+        android:paddingTop = "@dimen/vertical_padding"
+        android:paddingBottom="@dimen/vertical_padding"
+
+        />
+
+    <TextView
+        android:id="@+id/txtPhoneValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblFullName"
+        android:layout_toRightOf="@+id/txtFullLabel"
+        android:layout_below="@+id/txtFullLabel"
+
+        android:paddingRight="@dimen/horizontal_padding"
+        android:paddingTop = "@dimen/vertical_padding"
+        android:paddingBottom="@dimen/vertical_padding"
+
+        />
+
+    <TextView
+        android:id="@+id/txtBirthLabel"
+        android:layout_width="@dimen/width_summary_form"
+        android:layout_height="wrap_content"
+        android:text="@string/lblBirthDate"
+        android:layout_below="@+id/txtPhoneLabel"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingRight="@dimen/horizontal_padding"
+        android:paddingTop = "@dimen/vertical_padding"
+        android:paddingBottom="@dimen/vertical_padding"
+
+        />
+
+    <TextView
+        android:id="@+id/txtBirthValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblFullName"
+        android:layout_toRightOf="@+id/txtBirthLabel"
+        android:layout_below="@+id/txtPhoneValue"
+
+        android:paddingRight="@dimen/horizontal_padding"
+        android:paddingTop = "@dimen/vertical_padding"
+        android:paddingBottom="@dimen/vertical_padding"
+
+        />
+    <TextView
+        android:id="@+id/txtEmailLabel"
+        android:layout_width="@dimen/width_summary_form"
+        android:layout_height="wrap_content"
+        android:text="@string/lblEmail"
+        android:layout_below="@+id/txtBirthLabel"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingRight="@dimen/horizontal_padding"
+        android:paddingTop = "@dimen/vertical_padding"
+        android:paddingBottom="@dimen/vertical_padding"
+
+        />
+
+    <TextView
+        android:id="@+id/txtEmailValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblFullName"
+        android:layout_toRightOf="@+id/txtBirthLabel"
+        android:layout_below="@+id/txtBirthLabel"
+        android:paddingRight="@dimen/horizontal_padding"
+        android:paddingTop = "@dimen/vertical_padding"
+        android:paddingBottom="@dimen/vertical_padding"
+
+        />
+    <TextView
+        android:id="@+id/txtDesriptionLabel"
+        android:layout_width="@dimen/width_summary_form"
+        android:layout_height="wrap_content"
+        android:text="@string/lblPhoneNumber"
+        android:layout_below="@+id/txtEmailLabel"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingRight="@dimen/horizontal_padding"
+        android:paddingTop = "@dimen/vertical_padding"
+        android:paddingBottom="@dimen/extra_vertical_padding"
+
+        />
+
+    <TextView
+        android:id="@+id/txtDescriptionValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblFullName"
+        android:layout_toRightOf="@+id/txtDesriptionLabel"
+        android:layout_below="@+id/txtEmailLabel"
+        android:paddingRight="@dimen/horizontal_padding"
+        android:paddingTop = "@dimen/vertical_padding"
+        android:paddingBottom="@dimen/extra_vertical_padding"
+
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/lblEdit"
+        android:layout_below="@+id/txtDesriptionLabel"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingRight="@dimen/horizontal_padding"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:onClick="showData"
+        />
+
+
+</RelativeLayout>
