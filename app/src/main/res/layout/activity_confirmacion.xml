@@ -129,7 +129,7 @@
         android:id="@+id/txtDesriptionLabel"
         android:layout_width="@dimen/width_summary_form"
         android:layout_height="wrap_content"
-        android:text="@string/lblPhoneNumber"
+        android:text="@string/lblDescription"
         android:layout_below="@+id/txtEmailLabel"
         android:paddingLeft="@dimen/horizontal_padding"
         android:paddingRight="@dimen/horizontal_padding"
